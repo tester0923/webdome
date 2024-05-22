@@ -1,0 +1,1001 @@
+{
+  "assets/migrate-canvas.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/migrate-canvas.js",
+    "mTimestamp": 1715870550231
+  },
+  "assets/script/fight/boss.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_7": "assets/script/fight/gameManager.js",
+      "__unresolved_19": "assets/script/fight/characterRigid.js",
+      "__unresolved_10": "assets/script/fight/monsterModel.js",
+      "__unresolved_1": "assets/script/fight/monster.js",
+      "__unresolved_16": "assets/script/fight/monsterSkill/dispersionSurround.js",
+      "__unresolved_13": "assets/script/fight/monsterSkill/dispersion.js",
+      "__unresolved_11": "assets/script/fight/monsterSkill/energyBall.js",
+      "__unresolved_12": "assets/script/fight/monsterSkill/fireBall.js",
+      "__unresolved_15": "assets/script/fight/monsterSkill/fireBallBig.js",
+      "__unresolved_9": "assets/script/fight/monsterSkill/jetFires.js",
+      "__unresolved_17": "assets/script/fight/monsterSkill/laser.js",
+      "__unresolved_14": "assets/script/fight/monsterSkill/tornado.js",
+      "__unresolved_18": "assets/script/framework/audioManager.js",
+      "__unresolved_4": "assets/script/framework/constant.js",
+      "__unresolved_5": "assets/script/framework/effectManager.js",
+      "__unresolved_8": "assets/script/framework/resourceUtil.js",
+      "__unresolved_6": "assets/script/framework/poolManager.js",
+      "__unresolved_3": "assets/script/framework/uiManager.js",
+      "__unresolved_20": "assets/script/framework/util.js",
+      "__unresolved_2": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/boss.js",
+    "mTimestamp": 1715870550313
+  },
+  "assets/script/fight/colliderItem.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_7": "assets/script/fight/arrow.js",
+      "__unresolved_5": "assets/script/fight/gameManager.js",
+      "__unresolved_4": "assets/script/fight/monster.js",
+      "__unresolved_6": "assets/script/framework/constant.js",
+      "__unresolved_2": "assets/script/framework/playerData.js",
+      "__unresolved_1": "assets/script/framework/poolManager.js",
+      "__unresolved_3": "assets/script/framework/uiManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/colliderItem.js",
+    "mTimestamp": 1715870550384
+  },
+  "assets/script/fight/characterRigid.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/constant.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/characterRigid.js",
+    "mTimestamp": 1715870550426
+  },
+  "assets/script/fight/gameCamera.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/gameCamera.js",
+    "mTimestamp": 1715870550440
+  },
+  "assets/script/fight/gameManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_7": "assets/script/fight/gameCamera.js",
+      "__unresolved_6": "assets/script/fight/mapManager.js",
+      "__unresolved_4": "assets/script/fight/monster.js",
+      "__unresolved_8": "assets/script/fight/player.js",
+      "__unresolved_13": "assets/script/framework/audioManager.js",
+      "__unresolved_11": "assets/script/framework/constant.js",
+      "__unresolved_1": "assets/script/framework/effectManager.js",
+      "__unresolved_12": "assets/script/framework/localConfig.js",
+      "__unresolved_3": "assets/script/framework/playerData.js",
+      "__unresolved_9": "assets/script/framework/resourceUtil.js",
+      "__unresolved_10": "assets/script/framework/poolManager.js",
+      "__unresolved_5": "assets/script/framework/uiManager.js",
+      "__unresolved_2": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/gameManager.js",
+    "mTimestamp": 1715870550540
+  },
+  "assets/script/fight/mapManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_3": "assets/script/fight/boss.js",
+      "__unresolved_7": "assets/script/fight/gameManager.js",
+      "__unresolved_2": "assets/script/fight/monster.js",
+      "__unresolved_9": "assets/script/framework/audioManager.js",
+      "__unresolved_1": "assets/script/framework/constant.js",
+      "__unresolved_4": "assets/script/framework/localConfig.js",
+      "__unresolved_6": "assets/script/framework/resourceUtil.js",
+      "__unresolved_5": "assets/script/framework/poolManager.js",
+      "__unresolved_8": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/mapManager.js",
+    "mTimestamp": 1715870550605
+  },
+  "assets/script/fight/monster.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_8": "assets/script/fight/gameManager.js",
+      "__unresolved_10": "assets/script/fight/monsterModel.js",
+      "__unresolved_19": "assets/script/fight/characterRigid.js",
+      "__unresolved_14": "assets/script/fight/monsterSkill/dispersionSurround.js",
+      "__unresolved_15": "assets/script/fight/monsterSkill/dispersion.js",
+      "__unresolved_12": "assets/script/fight/monsterSkill/energyBall.js",
+      "__unresolved_13": "assets/script/fight/monsterSkill/fireBall.js",
+      "__unresolved_16": "assets/script/fight/monsterSkill/fireBallBig.js",
+      "__unresolved_18": "assets/script/fight/monsterSkill/laser.js",
+      "__unresolved_17": "assets/script/fight/monsterSkill/tornado.js",
+      "__unresolved_1": "assets/script/framework/audioManager.js",
+      "__unresolved_7": "assets/script/framework/constant.js",
+      "__unresolved_4": "assets/script/framework/effectManager.js",
+      "__unresolved_3": "assets/script/framework/localConfig.js",
+      "__unresolved_11": "assets/script/framework/resourceUtil.js",
+      "__unresolved_6": "assets/script/framework/poolManager.js",
+      "__unresolved_5": "assets/script/framework/uiManager.js",
+      "__unresolved_2": "assets/script/framework/util.js",
+      "__unresolved_9": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/monster.js",
+    "mTimestamp": 1715870550765
+  },
+  "assets/script/fight/monsterModel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_2": "assets/script/fight/gameManager.js",
+      "__unresolved_1": "assets/script/framework/constant.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/monsterModel.js",
+    "mTimestamp": 1715870550800
+  },
+  "assets/script/fight/monsterSkill/dispersionSurround.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_4": "assets/script/fight/gameManager.js",
+      "__unresolved_5": "assets/script/framework/audioManager.js",
+      "__unresolved_6": "assets/script/framework/constant.js",
+      "__unresolved_2": "assets/script/framework/effectManager.js",
+      "__unresolved_3": "assets/script/framework/poolManager.js",
+      "__unresolved_1": "assets/script/framework/util.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/monsterSkill/dispersionSurround.js",
+    "mTimestamp": 1715870550826
+  },
+  "assets/script/fight/monsterSkill/dispersion.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_6": "assets/script/fight/gameManager.js",
+      "__unresolved_1": "assets/script/framework/audioManager.js",
+      "__unresolved_2": "assets/script/framework/constant.js",
+      "__unresolved_3": "assets/script/framework/effectManager.js",
+      "__unresolved_4": "assets/script/framework/poolManager.js",
+      "__unresolved_5": "assets/script/framework/util.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/monsterSkill/dispersion.js",
+    "mTimestamp": 1715870550850
+  },
+  "assets/script/fight/monsterSkill/energyBall.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_2": "assets/script/fight/gameManager.js",
+      "__unresolved_5": "assets/script/framework/audioManager.js",
+      "__unresolved_6": "assets/script/framework/constant.js",
+      "__unresolved_4": "assets/script/framework/effectManager.js",
+      "__unresolved_3": "assets/script/framework/poolManager.js",
+      "__unresolved_1": "assets/script/framework/util.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/monsterSkill/energyBall.js",
+    "mTimestamp": 1715870550871
+  },
+  "assets/script/fight/monsterSkill/fireBall.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_6": "assets/script/fight/gameManager.js",
+      "__unresolved_1": "assets/script/framework/audioManager.js",
+      "__unresolved_2": "assets/script/framework/constant.js",
+      "__unresolved_3": "assets/script/framework/effectManager.js",
+      "__unresolved_5": "assets/script/framework/resourceUtil.js",
+      "__unresolved_4": "assets/script/framework/poolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/monsterSkill/fireBall.js",
+    "mTimestamp": 1715870550903
+  },
+  "assets/script/fight/arrow.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_3": "assets/script/fight/gameManager.js",
+      "__unresolved_1": "assets/script/framework/audioManager.js",
+      "__unresolved_6": "assets/script/framework/constant.js",
+      "__unresolved_5": "assets/script/framework/resourceUtil.js",
+      "__unresolved_4": "assets/script/framework/poolManager.js",
+      "__unresolved_2": "assets/script/framework/util.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/arrow.js",
+    "mTimestamp": 1715870550947
+  },
+  "assets/script/fight/monsterSkill/fireBallBig.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_5": "assets/script/framework/audioManager.js",
+      "__unresolved_1": "assets/script/framework/constant.js",
+      "__unresolved_2": "assets/script/framework/effectManager.js",
+      "__unresolved_4": "assets/script/framework/resourceUtil.js",
+      "__unresolved_3": "assets/script/framework/poolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/monsterSkill/fireBallBig.js",
+    "mTimestamp": 1715870550985
+  },
+  "assets/script/fight/monsterSkill/jetFires.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/monsterSkill/jetFires.js",
+    "mTimestamp": 1715870550995
+  },
+  "assets/script/fight/monsterSkill/laser.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_4": "assets/script/framework/audioManager.js",
+      "__unresolved_3": "assets/script/framework/constant.js",
+      "__unresolved_2": "assets/script/framework/effectManager.js",
+      "__unresolved_1": "assets/script/framework/poolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/monsterSkill/laser.js",
+    "mTimestamp": 1715870551014
+  },
+  "assets/script/fight/monsterSkill/tornado.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_2": "assets/script/fight/gameManager.js",
+      "__unresolved_6": "assets/script/framework/audioManager.js",
+      "__unresolved_5": "assets/script/framework/constant.js",
+      "__unresolved_3": "assets/script/framework/effectManager.js",
+      "__unresolved_1": "assets/script/framework/poolManager.js",
+      "__unresolved_4": "assets/script/framework/util.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/monsterSkill/tornado.js",
+    "mTimestamp": 1715870551043
+  },
+  "assets/script/fight/monsterSkillCollider.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_2": "assets/script/fight/gameManager.js",
+      "__unresolved_4": "assets/script/fight/monsterSkill/dispersionSurround.js",
+      "__unresolved_5": "assets/script/fight/monsterSkill/dispersion.js",
+      "__unresolved_6": "assets/script/fight/monsterSkill/energyBall.js",
+      "__unresolved_7": "assets/script/fight/monsterSkill/jetFires.js",
+      "__unresolved_8": "assets/script/fight/monsterSkill/fireBall.js",
+      "__unresolved_9": "assets/script/fight/monsterSkill/fireBallBig.js",
+      "__unresolved_10": "assets/script/fight/monsterSkill/laser.js",
+      "__unresolved_11": "assets/script/fight/monsterSkill/tornado.js",
+      "__unresolved_3": "assets/script/framework/constant.js",
+      "__unresolved_1": "assets/script/framework/poolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/monsterSkillCollider.js",
+    "mTimestamp": 1715870551091
+  },
+  "assets/script/fight/player.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/fight/mapManager.js",
+      "__unresolved_11": "assets/script/fight/gameManager.js",
+      "__unresolved_13": "assets/script/fight/arrow.js",
+      "__unresolved_15": "assets/script/fight/characterRigid.js",
+      "__unresolved_7": "assets/script/fight/playerModel.js",
+      "__unresolved_3": "assets/script/framework/audioManager.js",
+      "__unresolved_10": "assets/script/framework/constant.js",
+      "__unresolved_4": "assets/script/framework/effectManager.js",
+      "__unresolved_6": "assets/script/framework/localConfig.js",
+      "__unresolved_5": "assets/script/framework/playerData.js",
+      "__unresolved_12": "assets/script/framework/resourceUtil.js",
+      "__unresolved_8": "assets/script/framework/poolManager.js",
+      "__unresolved_14": "assets/script/framework/uiManager.js",
+      "__unresolved_2": "assets/script/framework/util.js",
+      "__unresolved_9": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/player.js",
+    "mTimestamp": 1715870551227
+  },
+  "assets/script/fight/playerModel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/fight/gameManager.js",
+      "__unresolved_3": "assets/script/framework/audioManager.js",
+      "__unresolved_2": "assets/script/framework/constant.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/playerModel.js",
+    "mTimestamp": 1715870551261
+  },
+  "assets/script/fight/verticalRaycast.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/verticalRaycast.js",
+    "mTimestamp": 1715870551276
+  },
+  "assets/script/fight/warningSkill/warningCircle.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/fight/gameManager.js",
+      "__unresolved_2": "assets/script/framework/poolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/warningSkill/warningCircle.js",
+    "mTimestamp": 1715870551296
+  },
+  "assets/script/fight/warningSkill/warningStrip.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/poolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/warningSkill/warningStrip.js",
+    "mTimestamp": 1715870551309
+  },
+  "assets/script/fight/test.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/test.js",
+    "mTimestamp": 1715870551329
+  },
+  "assets/script/fight/warningSkill/warningLine.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/poolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/warningSkill/warningLine.js",
+    "mTimestamp": 1715870551343
+  },
+  "assets/script/framework/clientEvent.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/clientEvent.js",
+    "mTimestamp": 1715870551354
+  },
+  "assets/script/framework/audioManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_3": "assets/script/framework/lodash.js",
+      "__unresolved_2": "assets/script/framework/resourceUtil.js",
+      "__unresolved_1": "assets/script/framework/storageManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/audioManager.js",
+    "mTimestamp": 1715870551390
+  },
+  "assets/script/framework/constant.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/constant.js",
+    "mTimestamp": 1715870551404
+  },
+  "assets/script/framework/localConfig.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/csvManager.js",
+      "__unresolved_2": "assets/script/framework/resourceUtil.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/localConfig.js",
+    "mTimestamp": 1715870551425
+  },
+  "assets/script/framework/playerData.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_2": "assets/script/framework/constant.js",
+      "__unresolved_3": "assets/script/framework/localConfig.js",
+      "__unresolved_4": "assets/script/framework/storageManager.js",
+      "__unresolved_1": "assets/script/framework/util.js",
+      "__unresolved_5": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/playerData.js",
+    "mTimestamp": 1715870551469
+  },
+  "assets/script/framework/effectManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_3": "assets/script/fight/warningSkill/warningCircle.js",
+      "__unresolved_4": "assets/script/fight/reward.js",
+      "__unresolved_5": "assets/script/fight/warningSkill/warningStrip.js",
+      "__unresolved_6": "assets/script/fight/warningSkill/warningLine.js",
+      "__unresolved_2": "assets/script/framework/resourceUtil.js",
+      "__unresolved_1": "assets/script/framework/poolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/effectManager.js",
+    "mTimestamp": 1715870551526
+  },
+  "assets/script/framework/lodash.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/lodash.js",
+    "mTimestamp": 1715870551571
+  },
+  "assets/script/framework/poolManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/poolManager.js",
+    "mTimestamp": 1715870551586
+  },
+  "assets/script/framework/resourceUtil.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/resourceUtil.js",
+    "mTimestamp": 1715870551610
+  },
+  "assets/script/framework/sdkUtil.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/playerData.js",
+      "__unresolved_2": "assets/script/framework/constant.js",
+      "__unresolved_3": "assets/script/framework/audioManager.js",
+      "__unresolved_4": "assets/script/framework/storageManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/sdkUtil.js",
+    "mTimestamp": 1715870551639
+  },
+  "assets/script/framework/uiManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_2": "assets/script/framework/resourceUtil.js",
+      "__unresolved_3": "assets/script/framework/poolManager.js",
+      "__unresolved_5": "assets/script/fight/gameManager.js",
+      "__unresolved_8": "assets/script/framework/constant.js",
+      "__unresolved_4": "assets/script/ui/common/tips.js",
+      "__unresolved_1": "assets/script/ui/common/fightTip.js",
+      "__unresolved_7": "assets/script/ui/fight/monsterBloodBar.js",
+      "__unresolved_6": "assets/script/ui/fight/playerBloodBar.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/uiManager.js",
+    "mTimestamp": 1715870551708
+  },
+  "assets/script/framework/util.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/util.js",
+    "mTimestamp": 1715870551822
+  },
+  "assets/script/ui/back/backPanel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/audioManager.js",
+      "__unresolved_2": "assets/script/framework/uiManager.js",
+      "__unresolved_3": "assets/script/framework/constant.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/back/backPanel.js",
+    "mTimestamp": 1715870551835
+  },
+  "assets/script/ui/common/fightTip.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/poolManager.js",
+      "__unresolved_2": "assets/script/framework/constant.js",
+      "__unresolved_3": "assets/script/framework/util.js",
+      "__unresolved_4": "assets/script/fight/gameManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/common/fightTip.js",
+    "mTimestamp": 1715870551867
+  },
+  "assets/script/ui/common/tips.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/poolManager.js",
+      "__unresolved_2": "assets/script/framework/util.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/common/tips.js",
+    "mTimestamp": 1715870551897
+  },
+  "assets/script/ui/debug/debugLevelItem.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/constant.js",
+      "__unresolved_2": "assets/script/framework/uiManager.js",
+      "__unresolved_3": "assets/script/framework/playerData.js",
+      "__unresolved_5": "assets/script/framework/audioManager.js",
+      "__unresolved_4": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/debug/debugLevelItem.js",
+    "mTimestamp": 1715870551922
+  },
+  "assets/script/ui/debug/debugPanel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/fight/gameManager.js",
+      "__unresolved_3": "assets/script/framework/constant.js",
+      "__unresolved_4": "assets/script/ui/debug/debugLevelItem.js",
+      "__unresolved_5": "assets/script/framework/poolManager.js",
+      "__unresolved_6": "assets/script/framework/playerData.js",
+      "__unresolved_7": "assets/script/framework/uiManager.js",
+      "__unresolved_8": "assets/script/framework/localConfig.js",
+      "__unresolved_9": "assets/script/framework/storageManager.js",
+      "__unresolved_11": "assets/script/framework/effectManager.js",
+      "__unresolved_12": "assets/script/framework/audioManager.js",
+      "__unresolved_2": "assets/script/ui/debug/debugSkillItem.js",
+      "__unresolved_10": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/debug/debugPanel.js",
+    "mTimestamp": 1715870551971
+  },
+  "assets/script/ui/debug/debugSkillItem.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/playerData.js",
+      "__unresolved_2": "assets/script/framework/constant.js",
+      "__unresolved_3": "assets/script/fight/gameManager.js",
+      "__unresolved_4": "assets/script/framework/effectManager.js",
+      "__unresolved_5": "assets/script/framework/audioManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/debug/debugSkillItem.js",
+    "mTimestamp": 1715870551992
+  },
+  "assets/script/ui/fight/bossBloodBar.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/fight/gameManager.js",
+      "__unresolved_3": "assets/script/framework/constant.js",
+      "__unresolved_2": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/fight/bossBloodBar.js",
+    "mTimestamp": 1715870552015
+  },
+  "assets/script/ui/fight/fightPanel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/uiManager.js",
+      "__unresolved_2": "assets/script/ui/fight/bossBloodBar.js",
+      "__unresolved_3": "assets/script/fight/gameManager.js",
+      "__unresolved_4": "assets/script/framework/util.js",
+      "__unresolved_5": "assets/script/framework/playerData.js",
+      "__unresolved_6": "assets/script/framework/constant.js",
+      "__unresolved_8": "assets/script/framework/localConfig.js",
+      "__unresolved_9": "assets/script/framework/audioManager.js",
+      "__unresolved_7": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/fight/fightPanel.js",
+    "mTimestamp": 1715870552045
+  },
+  "assets/script/ui/fight/monsterBloodBar.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/constant.js",
+      "__unresolved_2": "assets/script/fight/gameManager.js",
+      "__unresolved_3": "assets/script/framework/poolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/fight/monsterBloodBar.js",
+    "mTimestamp": 1715870552074
+  },
+  "assets/script/ui/fight/playerBloodBar.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/constant.js",
+      "__unresolved_2": "assets/script/fight/gameManager.js",
+      "__unresolved_3": "assets/script/framework/poolManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/fight/playerBloodBar.js",
+    "mTimestamp": 1715870552120
+  },
+  "assets/script/ui/home/homePanel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/uiManager.js",
+      "__unresolved_2": "assets/script/framework/playerData.js",
+      "__unresolved_4": "assets/script/framework/constant.js",
+      "__unresolved_5": "assets/script/framework/audioManager.js",
+      "__unresolved_3": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/home/homePanel.js",
+    "mTimestamp": 1715870552142
+  },
+  "assets/script/ui/loading/loadingPanel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/constant.js",
+      "__unresolved_2": "assets/script/framework/uiManager.js",
+      "__unresolved_4": "assets/script/fight/gameManager.js",
+      "__unresolved_3": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/loading/loadingPanel.js",
+    "mTimestamp": 1715870552164
+  },
+  "assets/script/ui/pause/pausePanel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_2": "assets/script/framework/constant.js",
+      "__unresolved_3": "assets/script/fight/gameManager.js",
+      "__unresolved_4": "assets/script/framework/uiManager.js",
+      "__unresolved_6": "assets/script/framework/audioManager.js",
+      "__unresolved_7": "assets/script/framework/resourceUtil.js",
+      "__unresolved_8": "assets/script/framework/playerData.js",
+      "__unresolved_5": "assets/script/ui/pause/skillList.js",
+      "__unresolved_1": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/pause/pausePanel.js",
+    "mTimestamp": 1715870552197
+  },
+  "assets/script/ui/pause/skillIcon.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/constant.js",
+      "__unresolved_3": "assets/script/framework/resourceUtil.js",
+      "__unresolved_4": "assets/script/framework/audioManager.js",
+      "__unresolved_2": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/pause/skillIcon.js",
+    "mTimestamp": 1715870552221
+  },
+  "assets/script/ui/pause/skillList.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/constant.js",
+      "__unresolved_2": "assets/script/framework/localConfig.js",
+      "__unresolved_4": "assets/script/framework/poolManager.js",
+      "__unresolved_5": "assets/script/framework/playerData.js",
+      "__unresolved_3": "assets/script/ui/pause/skillIcon.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/pause/skillList.js",
+    "mTimestamp": 1715870552242
+  },
+  "assets/script/ui/revive/revivePanel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/playerData.js",
+      "__unresolved_3": "assets/script/framework/constant.js",
+      "__unresolved_4": "assets/script/framework/sdkUtil.js",
+      "__unresolved_5": "assets/script/framework/uiManager.js",
+      "__unresolved_6": "assets/script/framework/audioManager.js",
+      "__unresolved_2": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/revive/revivePanel.js",
+    "mTimestamp": 1715870552271
+  },
+  "assets/script/ui/setting/settingPanel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/uiManager.js",
+      "__unresolved_2": "assets/script/framework/audioManager.js",
+      "__unresolved_3": "assets/script/framework/storageManager.js",
+      "__unresolved_4": "assets/script/framework/constant.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/setting/settingPanel.js",
+    "mTimestamp": 1715870552303
+  },
+  "assets/script/ui/settlement/settlementPanel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/constant.js",
+      "__unresolved_2": "assets/script/framework/playerData.js",
+      "__unresolved_3": "assets/script/fight/gameManager.js",
+      "__unresolved_4": "assets/script/framework/uiManager.js",
+      "__unresolved_6": "assets/script/ui/pause/skillList.js",
+      "__unresolved_7": "assets/script/framework/audioManager.js",
+      "__unresolved_5": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/settlement/settlementPanel.js",
+    "mTimestamp": 1715870552332
+  },
+  "assets/script/ui/shopPanel/shopItem.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/effectManager.js",
+      "__unresolved_2": "assets/script/fight/gameManager.js",
+      "__unresolved_3": "assets/script/framework/playerData.js",
+      "__unresolved_4": "assets/script/framework/resourceUtil.js",
+      "__unresolved_5": "assets/script/framework/audioManager.js",
+      "__unresolved_6": "assets/script/framework/constant.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/shopPanel/shopItem.js",
+    "mTimestamp": 1715870552358
+  },
+  "assets/script/ui/shopPanel/shopPanel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/ui/shopPanel/shopItem.js",
+      "__unresolved_2": "assets/script/framework/util.js",
+      "__unresolved_3": "assets/script/framework/uiManager.js",
+      "__unresolved_4": "assets/script/framework/constant.js",
+      "__unresolved_5": "assets/script/framework/playerData.js",
+      "__unresolved_6": "assets/script/framework/sdkUtil.js",
+      "__unresolved_7": "assets/script/framework/localConfig.js",
+      "__unresolved_8": "assets/script/framework/audioManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/shopPanel/shopPanel.js",
+    "mTimestamp": 1715870552383
+  },
+  "assets/script/ui/skill/skillItem.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/fight/gameManager.js",
+      "__unresolved_2": "assets/script/framework/audioManager.js",
+      "__unresolved_3": "assets/script/framework/constant.js",
+      "__unresolved_4": "assets/script/framework/effectManager.js",
+      "__unresolved_5": "assets/script/framework/playerData.js",
+      "__unresolved_6": "assets/script/framework/resourceUtil.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/skill/skillItem.js",
+    "mTimestamp": 1715870552405
+  },
+  "assets/script/ui/skill/skillPanel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/localConfig.js",
+      "__unresolved_2": "assets/script/fight/gameManager.js",
+      "__unresolved_3": "assets/script/ui/skill/skillItem.js",
+      "__unresolved_4": "assets/script/framework/util.js",
+      "__unresolved_5": "assets/script/framework/uiManager.js",
+      "__unresolved_6": "assets/script/framework/constant.js",
+      "__unresolved_7": "assets/script/framework/playerData.js",
+      "__unresolved_8": "assets/script/framework/sdkUtil.js",
+      "__unresolved_9": "assets/script/framework/audioManager.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/skill/skillPanel.js",
+    "mTimestamp": 1715870552431
+  },
+  "assets/script/utils/camera.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/utils/camera.js",
+    "mTimestamp": 1715870552454
+  },
+  "assets/script/utils/joystick.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/audioManager.js",
+      "__unresolved_2": "assets/script/framework/playerData.js",
+      "__unresolved_3": "assets/script/framework/constant.js",
+      "__unresolved_4": "assets/script/fight/gameManager.js",
+      "__unresolved_5": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/utils/joystick.js",
+    "mTimestamp": 1715870552508
+  },
+  "assets/script/fight/reward.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_6": "assets/script/fight/gameManager.js",
+      "__unresolved_8": "assets/script/framework/audioManager.js",
+      "__unresolved_4": "assets/script/framework/constant.js",
+      "__unresolved_1": "assets/script/framework/effectManager.js",
+      "__unresolved_7": "assets/script/framework/resourceUtil.js",
+      "__unresolved_3": "assets/script/framework/poolManager.js",
+      "__unresolved_2": "assets/script/framework/util.js",
+      "__unresolved_5": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/fight/reward.js",
+    "mTimestamp": 1715870552558
+  },
+  "assets/script/framework/csvManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/csvManager.js",
+    "mTimestamp": 1715870552605
+  },
+  "assets/script/lib/cocosAnalytics.min.proxy.js?cjs&original=.js": {
+    "imports": {
+      "__unresolved_1": "assets/script/lib/cocosAnalytics.min.js",
+      "__unresolved_3": "assets/script/lib/cocosAnalytics.min.js",
+      "__unresolved_4": "assets/script/lib/cocosAnalytics.min.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_2": "quick-pack:/cce/internal/ml/cjs-loader.js"
+    },
+    "physicalLocation": "fs/0/assets/script/lib/cocosAnalytics.min.proxy.js@63cjs&original=.js",
+    "mTimestamp": 1715870552615
+  },
+  "assets/script/lib/cocosAnalytics.min.js": {
+    "imports": {
+      "__unresolved_0": "quick-pack:/cce/internal/ml/cjs-loader.js"
+    },
+    "physicalLocation": "fs/0/assets/script/lib/cocosAnalytics.min.js",
+    "mTimestamp": 1715870553242
+  },
+  "assets/script/main.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/audioManager.js",
+      "__unresolved_2": "assets/script/fight/gameManager.js",
+      "__unresolved_3": "assets/script/framework/constant.js",
+      "__unresolved_5": "assets/script/framework/playerData.js",
+      "__unresolved_6": "assets/script/framework/storageManager.js",
+      "__unresolved_7": "assets/script/framework/localConfig.js",
+      "__unresolved_8": "assets/script/framework/util.js",
+      "__unresolved_9": "assets/script/framework/sdkUtil.js",
+      "__unresolved_4": "assets/script/framework/clientEvent.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/main.js",
+    "mTimestamp": 1715903709018
+  },
+  "assets/script/framework/storageManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_1": "assets/script/framework/util.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/framework/storageManager.js",
+    "mTimestamp": 1716077702587
+  },
+  "quick-pack:/cce/internal/x/cc.js": {
+    "imports": {
+      "__unresolved_0": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/base"
+      },
+      "__unresolved_1": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/gfx-webgl"
+      },
+      "__unresolved_2": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/3d"
+      },
+      "__unresolved_3": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/2d"
+      },
+      "__unresolved_4": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/ui"
+      },
+      "__unresolved_5": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/particle"
+      },
+      "__unresolved_6": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/physics-ammo"
+      },
+      "__unresolved_7": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/physics-framework"
+      },
+      "__unresolved_8": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation"
+      },
+      "__unresolved_9": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/primitive"
+      },
+      "__unresolved_10": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/profiler"
+      },
+      "__unresolved_11": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/audio"
+      },
+      "__unresolved_12": {
+        "external": true,
+        "url": "cce:/internal/x/cc-fu/tween"
+      }
+    },
+    "physicalLocation": "cce/internal/x/cc.js",
+    "mTimestamp": 1716292898085,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/cc"
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "__unresolved_0": "assets/migrate-canvas.js",
+      "__unresolved_1": "assets/script/fight/arrow.js",
+      "__unresolved_3": "assets/script/fight/characterRigid.js",
+      "__unresolved_4": "assets/script/fight/colliderItem.js",
+      "__unresolved_5": "assets/script/fight/gameCamera.js",
+      "__unresolved_6": "assets/script/fight/gameManager.js",
+      "__unresolved_2": "assets/script/fight/boss.js",
+      "__unresolved_7": "assets/script/fight/mapManager.js",
+      "__unresolved_9": "assets/script/fight/monsterModel.js",
+      "__unresolved_8": "assets/script/fight/monster.js",
+      "__unresolved_11": "assets/script/fight/monsterSkill/dispersionSurround.js",
+      "__unresolved_10": "assets/script/fight/monsterSkill/dispersion.js",
+      "__unresolved_12": "assets/script/fight/monsterSkill/energyBall.js",
+      "__unresolved_13": "assets/script/fight/monsterSkill/fireBall.js",
+      "__unresolved_14": "assets/script/fight/monsterSkill/fireBallBig.js",
+      "__unresolved_15": "assets/script/fight/monsterSkill/jetFires.js",
+      "__unresolved_16": "assets/script/fight/monsterSkill/laser.js",
+      "__unresolved_17": "assets/script/fight/monsterSkill/tornado.js",
+      "__unresolved_18": "assets/script/fight/monsterSkillCollider.js",
+      "__unresolved_19": "assets/script/fight/player.js",
+      "__unresolved_20": "assets/script/fight/playerModel.js",
+      "__unresolved_21": "assets/script/fight/reward.js",
+      "__unresolved_22": "assets/script/fight/test.js",
+      "__unresolved_23": "assets/script/fight/verticalRaycast.js",
+      "__unresolved_24": "assets/script/fight/warningSkill/warningCircle.js",
+      "__unresolved_25": "assets/script/fight/warningSkill/warningLine.js",
+      "__unresolved_26": "assets/script/fight/warningSkill/warningStrip.js",
+      "__unresolved_27": "assets/script/framework/audioManager.js",
+      "__unresolved_29": "assets/script/framework/constant.js",
+      "__unresolved_30": "assets/script/framework/csvManager.js",
+      "__unresolved_33": "assets/script/framework/lodash.js",
+      "__unresolved_31": "assets/script/framework/effectManager.js",
+      "__unresolved_32": "assets/script/framework/localConfig.js",
+      "__unresolved_34": "assets/script/framework/playerData.js",
+      "__unresolved_37": "assets/script/framework/sdkUtil.js",
+      "__unresolved_36": "assets/script/framework/resourceUtil.js",
+      "__unresolved_35": "assets/script/framework/poolManager.js",
+      "__unresolved_38": "assets/script/framework/storageManager.js",
+      "__unresolved_39": "assets/script/framework/uiManager.js",
+      "__unresolved_40": "assets/script/framework/util.js",
+      "__unresolved_42": "assets/script/main.js",
+      "__unresolved_45": "assets/script/ui/common/tips.js",
+      "__unresolved_44": "assets/script/ui/common/fightTip.js",
+      "__unresolved_43": "assets/script/ui/back/backPanel.js",
+      "__unresolved_46": "assets/script/ui/debug/debugLevelItem.js",
+      "__unresolved_49": "assets/script/ui/fight/bossBloodBar.js",
+      "__unresolved_47": "assets/script/ui/debug/debugPanel.js",
+      "__unresolved_48": "assets/script/ui/debug/debugSkillItem.js",
+      "__unresolved_50": "assets/script/ui/fight/fightPanel.js",
+      "__unresolved_53": "assets/script/ui/home/homePanel.js",
+      "__unresolved_51": "assets/script/ui/fight/monsterBloodBar.js",
+      "__unresolved_52": "assets/script/ui/fight/playerBloodBar.js",
+      "__unresolved_54": "assets/script/ui/loading/loadingPanel.js",
+      "__unresolved_55": "assets/script/ui/pause/pausePanel.js",
+      "__unresolved_57": "assets/script/ui/pause/skillList.js",
+      "__unresolved_56": "assets/script/ui/pause/skillIcon.js",
+      "__unresolved_59": "assets/script/ui/setting/settingPanel.js",
+      "__unresolved_58": "assets/script/ui/revive/revivePanel.js",
+      "__unresolved_61": "assets/script/ui/shopPanel/shopItem.js",
+      "__unresolved_60": "assets/script/ui/settlement/settlementPanel.js",
+      "__unresolved_62": "assets/script/ui/shopPanel/shopPanel.js",
+      "__unresolved_28": "assets/script/framework/clientEvent.js",
+      "__unresolved_63": "assets/script/ui/skill/skillItem.js",
+      "__unresolved_65": "assets/script/utils/camera.js",
+      "__unresolved_64": "assets/script/ui/skill/skillPanel.js",
+      "__unresolved_66": "assets/script/utils/joystick.js",
+      "__unresolved_41": "assets/script/lib/cocosAnalytics.min.proxy.js?cjs&original=.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1716292898101,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
+  },
+  "quick-pack:/cce/internal/code-quality/cr.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/code-quality/cr.js",
+    "mTimestamp": 1716292898115
+  },
+  "quick-pack:/cce/internal/ml/cjs-loader.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/ml/cjs-loader.js",
+    "mTimestamp": 1716292898152
+  }
+}
