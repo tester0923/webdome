@@ -74,7 +74,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             var arrCsvFiles = assets.filter(function (item) {
               return item._native !== ".md";
             });
-            _this._cntLoad = arrCsvFiles.length; //客户端加载
+            _this._cntLoad = arrCsvFiles.length;
+            console.log('arrCsvFiles', arrCsvFiles); //客户端加载
 
             if (arrCsvFiles.length) {
               arrCsvFiles.forEach(function (item, index, array) {

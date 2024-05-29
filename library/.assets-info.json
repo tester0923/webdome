@@ -1,9 +1,4 @@
 {
-  "/Users/amliya/Project/game/demo/test/assets/migrate-canvas.ts": {
-    "time": 1629341888000,
-    "uuid": "7bb93800-34aa-40ff-9414-daa05a0d98ed",
-    "missing": false
-  },
   "/Users/amliya/Project/game/demo/test/assets/res": {
     "time": 1630747853000,
     "uuid": "d619bb02-76a1-4ace-826f-b3b44149e185",
@@ -80,7 +75,7 @@
     "missing": false
   },
   "/Users/amliya/Project/game/demo/test/assets/scene/fight.scene": {
-    "time": 1630913325000,
+    "time": 1716939750118.276,
     "uuid": "127d7348-d43d-46d5-bb17-8678928b6a94",
     "missing": false
   },
@@ -100,7 +95,7 @@
     "missing": false
   },
   "/Users/amliya/Project/game/demo/test/assets/script/main.ts": {
-    "time": 1715903684793.46,
+    "time": 1716390088449.2834,
     "uuid": "3fbc818d-18be-427d-9e08-b7e4ac65da6a",
     "missing": false
   },
@@ -190,7 +185,7 @@
     "missing": false
   },
   "/Users/amliya/Project/game/demo/test/assets/res/effect/loadingCloud": {
-    "time": 1630910772000,
+    "time": 1716386401076.8582,
     "uuid": "7d01a3d2-f3d2-4ffb-8b48-e616fab2a5df",
     "missing": false
   },
@@ -310,7 +305,7 @@
     "missing": false
   },
   "/Users/amliya/Project/game/demo/test/assets/resources/datas/base.csv": {
-    "time": 1630707148000,
+    "time": 1716389349068.488,
     "uuid": "f040b60e-6793-4d9b-a877-6999680fd0dc",
     "missing": false
   },
@@ -450,7 +445,7 @@
     "missing": false
   },
   "/Users/amliya/Project/game/demo/test/assets/script/fight/gameManager.ts": {
-    "time": 1630912984000,
+    "time": 1716388546175.561,
     "uuid": "74bb57c4-2aa2-4123-befd-d855a4c523ff",
     "missing": false
   },
@@ -525,7 +520,7 @@
     "missing": false
   },
   "/Users/amliya/Project/game/demo/test/assets/script/framework/csvManager.ts": {
-    "time": 1629341888000,
+    "time": 1716381387919.1343,
     "uuid": "d755406e-aa72-4b00-a89b-c15516b5ee4f",
     "missing": false
   },
@@ -535,7 +530,7 @@
     "missing": false
   },
   "/Users/amliya/Project/game/demo/test/assets/script/framework/localConfig.ts": {
-    "time": 1629341888000,
+    "time": 1716381407329.3552,
     "uuid": "12fac499-8454-4621-86bb-cb188b5433a9",
     "missing": false
   },
@@ -660,7 +655,7 @@
     "missing": false
   },
   "/Users/amliya/Project/game/demo/test/assets/res/effect/animation/cloudAnimationIn.anim": {
-    "time": 1630910772000,
+    "time": 1716386073138.452,
     "uuid": "ac2ebbb5-4cb7-4701-8e29-f1f80d6ee331",
     "missing": false
   },
@@ -4908,5 +4903,8 @@
   },
   "/Users/amliya/Project/game/demo/test/assets/resources/prefab/model/weapon/arrow/arrowUmbrella.prefab.meta": {
     "time": 1629971893000
+  },
+  "/Users/amliya/Project/game/demo/test/assets/res/effect/loadingCloud/animation.anim.meta": {
+    "time": 1716386307784.1577
   }
 }

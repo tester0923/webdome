@@ -287,7 +287,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
           this.mapInfo = (_crd && localConfig === void 0 ? (_reportPossibleCrUseOflocalConfig({
             error: Error()
-          }), localConfig) : localConfig).instance.queryByID("checkpoint", String(level)); //设置本层敌人属性加成比例
+          }), localConfig) : localConfig).instance.queryByID("checkpoint", String(level));
+          console.log('mapInfo', this.mapInfo); //设置本层敌人属性加成比例
 
           GameManager.attackAddition = this.mapInfo.attackAddition;
           GameManager.defenseAddition = this.mapInfo.defenseAddition;
@@ -331,6 +332,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           //每层随机一张地图
           var arrMap = this.mapInfo.mapName.split("#");
           var mapName = arrMap[Math.floor(Math.random() * arrMap.length)];
+          console.log('mapName', mapName);
           this.preloadMonsterSkill(mapName).then(function () {
             _this2._recycleAll();
 

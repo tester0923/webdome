@@ -46,7 +46,7 @@ export class Main extends Component {
         let isDebugOpen = StorageManager.instance.getGlobalData("debug") ?? false;
         isDebugOpen === true ? profiler.showStats() : profiler.hideStats();
 
-        this.ndLoading.active = true;        
+        this.ndLoading.active = true;   
 
         //@ts-ignore
         if (window.cocosAnalytics) {

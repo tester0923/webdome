@@ -148,6 +148,7 @@ export class GameManager extends Component {
         } 
         
         this.mapInfo = localConfig.instance.queryByID("checkpoint", String(level));
+        console.log('mapInfo',this.mapInfo)
         //设置本层敌人属性加成比例
         GameManager.attackAddition = this.mapInfo.attackAddition;
         GameManager.defenseAddition = this.mapInfo.defenseAddition;
@@ -183,6 +184,7 @@ export class GameManager extends Component {
         //每层随机一张地图
         let arrMap = this.mapInfo.mapName.split("#");
         let mapName = arrMap[Math.floor(Math.random() * arrMap.length)];
+        console.log('mapName',mapName)
         
         this.preloadMonsterSkill(mapName).then(()=>{
             this._recycleAll();

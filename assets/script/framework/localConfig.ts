@@ -43,7 +43,7 @@ export class localConfig {
             })
 
             this._cntLoad = arrCsvFiles.length;
-    
+            console.log('arrCsvFiles',arrCsvFiles)
             //客户端加载
             if (arrCsvFiles.length) {
                 arrCsvFiles.forEach((item, index, array)=> {
